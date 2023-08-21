@@ -1,0 +1,25 @@
+header {
+	height: 200px;
+	position: relative;
+	z-index: 2;
+}
+
+header img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	z-index: 0;
+	opacity: 0.5;
+	filter: sepia(1);
+}
+
+header h1 {
+	letter-spacing: 0.2rem;
+	font-size: 5rem;
+	position: relative;
+	color: var(--light);
+	text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}

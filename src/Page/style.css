@@ -1,0 +1,15 @@
+main h2 {
+	font-size: 2.5rem;
+}
+
+/* About */
+.fa-user-circle {
+	font-size: 6rem;
+}
+
+/* Resume */
+.skills .list-group-item {
+	background-color: transparent;
+	color: var(--light);
+	border-color: var(--dark);
+}
